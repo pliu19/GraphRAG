@@ -42,11 +42,16 @@ Companion to (5). Derives the scenario classes systematically from the seven ass
 
 **Takeaway:** five of seven classes have a deterministic solution. Only planning and action genuinely need an LLM in a loop.
 
+### 9. [Job search scenarios](job-search-scenarios.md)
+The domain-native version of (8). Starts from the nine stages of an actual job search campaign, the seeker situations that break retrieval hardest, and the observable failure moments you can instrument today.
+
+**Takeaway:** semantic retrieval serves one of nine stages. Most of the other eight need extraction, graph traversal, set re-ranking, and aggregation — not agents.
+
 ---
 
 ## Suggested reading order
 
-Start at (1) for the field, (2) for the architecture argument, then (3)–(4) for the retrieval-side design or (5)–(8) for the interaction-side design.
+Start at (1) for the field, (2) for the architecture argument, then (3)–(4) for the retrieval-side design or (5)–(9) for the interaction-side design. For the applied version, (9) stands alone.
 
 ## Status
 
