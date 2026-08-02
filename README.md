@@ -37,11 +37,16 @@ Tier 3/4 as a typed state machine rather than a chat: bounded action space, term
 ### 7. [Tier 4 planning agent](tier4-planning-agent.md)
 The goal-planning case that genuinely cannot be precomputed. Out-of-band architecture that emits durable state to condition fast retrieval, Pareto path selection, grounding in live inventory, and the survivorship-bias correction for transition graphs.
 
+### 8. [Agentic search scenario catalog](agentic-search-scenarios.md)
+Companion to (5). Derives the scenario classes systematically from the seven assumptions single-turn retrieval makes, then enumerates ~25 concrete scenarios across elicitation, computation, set optimization, verification, planning, monitoring, and action — with the cheapest sufficient solution for each.
+
+**Takeaway:** five of seven classes have a deterministic solution. Only planning and action genuinely need an LLM in a loop.
+
 ---
 
 ## Suggested reading order
 
-Start at (1) for the field, (2) for the architecture argument, then (3)–(4) for the retrieval-side design or (5)–(7) for the interaction-side design.
+Start at (1) for the field, (2) for the architecture argument, then (3)–(4) for the retrieval-side design or (5)–(8) for the interaction-side design.
 
 ## Status
 
